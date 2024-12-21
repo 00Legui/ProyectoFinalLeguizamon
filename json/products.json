@@ -1,0 +1,104 @@
+{
+    "products": [
+      { 
+        "id": 1, 
+        "name": "Laptop", 
+        "price": 1100500, 
+        "category": "Electrónica",
+        "stock": 5,
+        "description": "Laptop de última generación",
+        "image": "laptop.jpg",
+        "quantity": 1
+      },
+      { 
+        "id": 2, 
+        "name": "Camiseta", 
+        "price": 20000, 
+        "category": "Ropa", 
+        "stock": 10,
+        "description": "Camiseta de algodón premium",
+        "image": "camiseta.jpg",
+        "quantity": 1
+    },
+    { 
+        "id": 3, 
+        "name": "Sofá", 
+        "price": 500000, 
+        "category": "Hogar", 
+        "stock": 3,
+        "description": "Sofá cómodo y elegante",
+        "image": "sofa.jpg",
+        "quantity": 1
+    },
+    { 
+        "id": 4, 
+        "name": "Auriculares", 
+        "price": 150000, 
+        "category": "Electrónica", 
+        "stock": 8,
+        "description": "Auriculares inalámbricos con cancelación de ruido",
+        "image": "auriculares.jpg",
+        "quantity": 1
+    },
+    { 
+        "id": 5, 
+        "name": "Pantalón", 
+        "price": 40000, 
+        "category": "Ropa", 
+        "stock": 12,
+        "description": "Pantalón casual de alta calidad",
+        "image": "pantalon.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "name": "Smart TV",
+        "price": 800000,
+        "category": "Electrónica",
+        "stock": 4,
+        "description": "Televisor inteligente 4K de 55 pulgadas",
+        "image": "tv.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "name": "Mesa de Comedor",
+        "price": 300500,
+        "category": "Hogar",
+        "stock": 6,
+        "description": "Mesa de comedor extensible para 6 personas",
+        "image": "mesa.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "name": "Vestido",
+        "price": 60000,
+        "category": "Ropa",
+        "stock": 15,
+        "description": "Vestido casual de verano",
+        "image": "vestido.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "name": "Smartphone",
+        "price": 650000,
+        "category": "Electrónica",
+        "stock": 10,
+        "description": "Teléfono inteligente con cámara de alta resolución",
+        "image": "smartphone.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 10,
+        "name": "Lámpara",
+        "price": 4500,
+        "category": "Hogar",
+        "stock": 20,
+        "description": "Lámpara de pie moderna con luz LED",
+        "image": "lampara.jpg",
+        "quantity": 1
+    }
+    ]
+  }
