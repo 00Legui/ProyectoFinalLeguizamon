@@ -96,11 +96,12 @@ productDetailsContainer.style.position = 'fixed';
 productDetailsContainer.style.top = '50%';
 productDetailsContainer.style.left = '50%';
 productDetailsContainer.style.transform = 'translate(-50%, -50%)';
-productDetailsContainer.style.backgroundColor = 'white';
+productDetailsContainer.style.backgroundColor = 'var(--card-background)';
 productDetailsContainer.style.padding = '20px';
 productDetailsContainer.style.borderRadius = '8px';
-productDetailsContainer.style.boxShadow = '0 0 10px rgba(0,0,0,0.5)';
+productDetailsContainer.style.boxShadow = '0 0 10px var(--shadow-color)';
 productDetailsContainer.style.zIndex = '1001';
+productDetailsContainer.style.color = 'var(--text-color)';
 document.body.appendChild(productDetailsContainer);
   
 let cart = [];
@@ -171,11 +172,11 @@ function showProductDetails(productId) {
     if (!name || !image || !description || typeof price !== 'number' || typeof stock !== 'number') return;
 
     productDetailsContainer.innerHTML = `
-        <h3>${name}</h3>
+        <h3 style="color: var(--text-color)">${name}</h3>
         <img src="./images/${image}" alt="${name}" style="max-width: 200px;">
-        <p>${description}</p>
-        <p>Precio: $${price}</p>
-        <p>Stock disponible: ${stock}</p>
+        <p style="color: var(--text-color)">${description}</p>
+        <p style="color: var(--text-color)">Precio: $${price}</p>
+        <p style="color: var(--text-color)">Stock disponible: ${stock}</p>
         <button onclick="addToCart(${id})" ${stock === 0 ? 'disabled' : ''}>
             ${stock === 0 ? 'Sin stock' : 'Agregar al carrito'}
         </button>
